@@ -11,9 +11,9 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
-	openInNewTab: true,
+	name: 'Tong',
+	imageBackground: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'd1e0703c4634cb12d4c7a36572ea9829', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '25.032969',
+	defaultLongitude: '121.565414',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,40 +61,38 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://hep1.phys.ntu.edu.tw/cgi-bin/openwebmail/openwebmail.pl',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Messages',
+			icon: 'message-circle',
+			link: 'https://www.messenger.com/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
 			icon: 'headphones',
-			link: 'https://open.spotify.com',
 		},
 		{
 			id: '2',
@@ -135,24 +133,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'clipboard-list',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'KEK User',
+					link: 'https://krs.kek.jp/uskek/ui/UI_00000E.do',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+			        name: 'KEK Indico',
+                    link: 'https://kds.kek.jp/category/74/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Indico Search',
+					link: 'https://justice.hep.sci.osaka-u.ac.jp/kotoweb/kotoweb.php',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'KEKCC Support',
+					link: 'https://kekcc.kek.jp/service/kekcc/support/en/',
 				},
 			],
 		},
@@ -161,20 +159,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'DeepL',
+					link: 'https://www.deepl.com/translator',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'ChatGPT',
+					link: 'https://chat.openai.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Tako Time',
+					link: 'https://www.youtube.com/@NinomaeInanis',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'DoDoDo Town',
+					link: 'https://www.youtube.com/@TsunomakiWatame',
 				},
 			],
 		},
